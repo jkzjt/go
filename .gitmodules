@@ -1,0 +1,3 @@
+[submodule "hello"]
+	path = hello
+	url = ./demo/src/github.com/jkzjt/hello/
