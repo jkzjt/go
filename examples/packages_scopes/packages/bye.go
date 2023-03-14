@@ -2,6 +2,6 @@ package main
 
 import "fmt"
 
-func Bye() {
+func bye() {
 	fmt.Println("bye")
 }

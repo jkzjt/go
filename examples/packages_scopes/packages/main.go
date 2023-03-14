@@ -13,6 +13,6 @@ func main() {
 	// It's because bye.go, hey.go and main.go
 	//  are in the main package.
 	
-	Hey()
-	Bye()
+	hey()
+	bye()
 }
