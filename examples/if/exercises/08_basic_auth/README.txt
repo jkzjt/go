@@ -2,7 +2,7 @@
 // EXERCISE: Basic Authentication
 //  Build a username/password protected program
 // 
-// FOLLOWING IS AN EXAMPLE
+// THE FOLLOWING IS AN EXAMPLE
 //  username = sam
 //  password = abc123
 // 
