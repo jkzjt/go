@@ -3,6 +3,7 @@ package main
 import (
 	. "fmt"
 	"unsafe"
+	"unicode/utf8"
 )
 
 // rune is an alias for int32 and is equivalent to int32 in all ways. It is
@@ -28,6 +29,9 @@ func main() {
 	// Println("len(r):", len(r))
 	
 	Println("len(r):", len(string(r)))
+	
+	// any ways to do it -- unicode/utf8#RuneLen
+	Println("len(r):", utf8.RuneLen(r))
 	
 	// cannot convert r (variable of type rune) to type []byte
 	// Println("len(r):", len([]byte(r)))
